@@ -5,8 +5,7 @@ $(document).ready(function(){
   }
 
   $(document).on("mouseover", ".box", function(){
-    $(this).addClass('.highlighted');
-    $(this).removeClass("box");
+    $(this).css('background-color', 'white');
 
   });
 
