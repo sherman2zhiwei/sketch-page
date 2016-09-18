@@ -1,5 +1,5 @@
 body {
-  width:900px;
+  width:1008px;
   height:auto;
   margin:auto;
   margin-bottom:0px;
@@ -7,19 +7,10 @@ body {
 
 .box {
   background-color:black;
-  height:200px;
-  width:200px;
+  height:60px;
+  width:60px;
   border-radius:20px;
   display:inline-block;
   margin-right:3px;
 
-}
-
-.highlighted {
-  background-color:white;
-  height:200px;
-  width:200px;
-  border-radius:20px;
-  display:inline-block;
-  margin-right:3px;
 }

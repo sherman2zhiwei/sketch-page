@@ -1,6 +1,6 @@
 
 $(document).ready(function(){
-  for (var i = 0; i < 20 ; i++){
+  for (var i = 0; i < 256 ; i++){
     $('body').append('<div class="box"></div>')
   }
 
