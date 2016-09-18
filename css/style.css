@@ -5,7 +5,7 @@ body {
   margin-bottom:0px;
 }
 
-#box {
+.box {
   background-color:black;
   height:200px;
   width:200px;
@@ -13,4 +13,13 @@ body {
   display:inline-block;
   margin-right:3px;
 
+}
+
+.highlighted {
+  background-color:white;
+  height:200px;
+  width:200px;
+  border-radius:20px;
+  display:inline-block;
+  margin-right:3px;
 }
