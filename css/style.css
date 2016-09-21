@@ -5,6 +5,13 @@ body {
   margin-bottom:0px;
 }
 
+button {
+  display:block;
+  margin: 20px auto;
+
+
+}
+
 .box {
   background-color:black;
   height:60px;
