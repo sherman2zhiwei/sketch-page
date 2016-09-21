@@ -7,9 +7,7 @@ body {
 
 button {
   display:block;
-  margin: 20px auto;
-
-
+  margin: 20px auto;  /*To center the button */
 }
 
 .box {
