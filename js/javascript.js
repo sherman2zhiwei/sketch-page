@@ -7,19 +7,20 @@ $(document).ready(function(){
   $(document).on("mouseover", ".box", function(){
     $(this).css('background-color', 'white');    // Turn the boxes to white when a mouse hovers over them
   });
-
-
-
-
+// Remove newlines to keep the code cleaner
+//
+//
+//
 });
 
 var gridSize = function(){
   $('div').remove();  // Remove the original grid
   var numberOfBoxesPerSide = prompt("How many boxes do you want per side?");
+  // bodyWidthBorder sounds awkward. Rename it. Maybe you can just call it bodyWidth.
   var bodyWidthBorder = ($('body').width())-((numberOfBoxesPerSide)*3);  // Since a 3px right margin is present after every box, I minus it off to account for the space it takes in the body
   var boxWidth = Math.floor(bodyWidthBorder/numberOfBoxesPerSide);
-
-
+// Remove newlines to keep the code cleaner
+//
 
   for (var i=0; i < Math.pow(numberOfBoxesPerSide, 2); i++){
     $('body').append('<div class="box"></div>')
