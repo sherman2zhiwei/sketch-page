@@ -1,8 +1,8 @@
 body {
   width:1008px;
-  height:auto;
+  height:auto; /* Remove this since default value of height is 'auto' */
   margin:auto;
-  margin-bottom:0px;
+  margin-bottom:0px; /* Same here. Remove this since default value of margin-bottom is 0 */
 }
 
 button {
